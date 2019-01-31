@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 // email: mulokozi80@gmail.com
 
-package cors
+package gocors
 
 import (
 	"log"
