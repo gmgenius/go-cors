@@ -1,11 +1,11 @@
-#gocors
+# gocors
 Go middleware for allowing Cross Origin Resource Sharing (CORS). Support [pre-flight request](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests)
 
-##installation
+## installation
 To install go-cors you can use the dep \
 `dep ensure -add github.com/gmgenius/gocors`
 
-##Example
+## Example
 In the example below, we are creating a server and use cors.HandleCors struct as our root path HTTP handler. The HandleCors struct implements the ServeHTTP method.
 ```go
  package main
@@ -48,7 +48,7 @@ In the example below, we are creating a server and use cors.HandleCors struct as
  }
 ```
 
-##Initializing the HandleCors Struct
+## Initializing the HandleCors Struct
 The struct has four properties, but only one is required to be provided during initialization.
 * AllowOrigin (not-required); default value = "*"
 * AllowMethods (not-required); default value = "GET, POST"
@@ -64,6 +64,6 @@ type HandleCors struct {
 }
 ```
 
-##Copyright
+## Copyright
 See LICENCE file for more details.
 
